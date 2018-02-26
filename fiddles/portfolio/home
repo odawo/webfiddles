@@ -1,0 +1,98 @@
+<!Doctype>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <header class="nav-header">
+      <ul>
+        <img src="http://qlip.in/images/qlip.png" alt="developer trials" id="logo-img">    
+        <a href="#contactlink" class="link">CONTACT</a>
+        <a href="#portfoliolink" class="link">PORTFOLIO</a>
+        <a href="#aboutlink" class="link">ABOUT</a>
+
+      </ul>
+    </header>
+    
+    <div class="container">
+          <div class="flex-container">
+            <div class="part-1a">
+              <p class="part-1a-text">Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+              <div class="divider"></div>
+              <h4 class="part-1a-info">Web Developer - User Experience Designer - Graphic Artist</h4>
+            </div>
+            <div class="part-1b">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aBBenbYk0R9YlfG3LTwdyJveJQUTYttswfPusi6qqLJsHUw7Cg" alt="random pic from online " class="pic">
+            </div>
+          </div>
+          
+          <div class="part-2">
+            <h2 class="portfolio-text" id="portfoliolink">PORTFOLIO</h2>
+            <div class="divider2"></div>
+            <div class="row">
+              <div class="column">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsGg7ItWfKVu_gmp_02Uw50JVrdWToiulYjL7RvAgC1_rhpwIQNg" alt="" class="portfolio-images">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Z6kElWys-LZvqAjKdciDZDpw6e1PJBgZQmP3VY9O7hG9D1-L" alt="" class="portfolio-images">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSvjwmGsfcV9q4cBuqunI7vA9yQJz98diSuTJneGQMA1zmvO7B" alt="" class="portfolio-images">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFDqBRbWc_Ht9TSh5KYbVCSAwlNCQTSQtIuOCH-QxlInZwO7c" alt="" class="portfolio-images">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT91LZ_p7oT36WkIN-8Z_n9tuOZy7apm8IK6VYI1TNbar1unpgP" alt="" class="portfolio-images">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxnUW1LT9P2WkLbjohR9C0cNVnMt2ZOD8S05B_jwBIdUP9tzH2" alt="" class="portfolio-images">
+               
+                </div>
+            </div>
+          </div>
+          <div class="contacts">
+            <h2 class="contact-text" id="contactlink">CONTACTS</h2>
+            <div class="divider3"></div>
+            <div class="contact-flexbox">
+              <div class="contact-me">
+                <form action="">
+                  <input type="text" text="name" placeholder="Name" id="data">
+                  <span class="floating-label">Name</span><br>
+                  <input type="email" text="email" placeholder="Email" id="data"><span class="floating-label">Email</span><br>
+                  <input type="tel" text="phone" placeholder="Phone" id="data"><span class="floating-label"Phone>Phone</span><br>
+                  <textarea type="text" text="message" placeholder="Message" id="data" rows="4" cols="20"></textarea>
+                </form>
+              </div>
+              <div class="contact-info">
+                <blockquote>I am Van. A student developer still in practice. Conversant with C#, Java and Android. Perfecting Python/ Ruby/ Swift nad  Web Devt. Works very fast and .....</blockquote>
+                <blockquote>I promise to reply A.S.A.P.</blockquote>
+              </div>
+            </div>
+            <div class="bottom-about">
+              <div class="div-send">
+                <input type="submit" text="send" id="i-text">
+              </div>
+              <div class="div-note">
+                <p>Note : Random bottom note.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="about-footer">
+      <div class="about">
+        <h3 class="about-page"  id="aboutlink">ABOUT THIS PAGE</h3>
+        <p id="about-p">Made with <i  class="fa fa-beer"></i>  and   <i  class="fa fa-laptop"></i>  by <br><a href="#" class="vanessa">Vanessa</a></p>
+      </div>
+      <div class="social-links">
+        <h3 class="around-page">AROUND THE WEB</h3>
+        <a href="www.facebook.com" class="fa fa-facebook" id="plain"></a>
+        <a href="www.twitter.com" class="fa fa-twitter"  id="plain"></a>
+        <a href="www.instagram" class="fa fa-instagram"  id="plain"></a>
+        <a href="www.github.com" class="fa fa-github" id="plain"></a>
+        <a href="www.linkedin.com" class="fa fa-linkedin"  id="plain"></a>
+      </div>
+      </div>
+      <div class="bottom-nav">
+        <p class="text-center">qlip © 2018. All Rights Reversed</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

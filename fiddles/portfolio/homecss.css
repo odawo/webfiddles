@@ -1,0 +1,241 @@
+body{
+  background-color : grey;
+  font-family: georgia;
+}
+header{
+  background-color : black; 
+  position: fixed;
+  width : 110%;
+  top : -20px;
+  margin-left : -10px;
+}
+ul{
+  margin-left : 100px;
+  margin-right : 190px;
+  padding : 0px;
+}
+#logo-img{
+  marging-left : 100px;
+  float : center; 
+  height : 40px;
+  padding : 10px;
+}
+.link{
+  color : orange;
+  padding : 30px;
+  float : right;
+  text-decoration : none;
+  height : 0px;
+  margin-top : 10px;
+}
+.link:hover{
+  color : grey;
+  box-shadow : 1px 1px 1px 1px grey;
+}
+.link:focus{
+  background : white;
+}
+.container{
+  float : center;
+  width : 70%;
+  margin: auto;
+}
+.flex-container{
+  display : flex;
+  background-color : white;
+  padding-top : 100px;
+}
+.part-1a{
+  margin : 20px;
+  padding : 10px;
+  font-size : 20px;
+}
+.part-1a-text {
+  text-align : right;
+}
+.part-1a-info {
+  text-align : right;
+}
+.pic  {
+  margin : 30px;
+  padding : 10px;
+  margin-top : 60px;
+  border-radius : 50%;
+}
+.divider{
+  padding : 3px;
+  background-color : lightgray;
+  width : 80%;
+  float : right;
+}
+.part-2{
+  background-color : orange;
+}
+.portfolio-text{
+  text-align : center;
+  margin : 0px;
+  padding : 50px;
+}
+.divider2{
+  background-color : lightgray;
+  width : 60%;
+  padding : 3px;
+  float : center;
+  margin : auto;
+}
+.row{
+  margin-top : 30px;
+  display : flex;
+  flex : wrap;
+  padding : 0 9px;
+}
+
+.column{
+  flex : 100%;
+  max-width : 100%; 
+  padding : 0 9px;
+}
+
+.portfolio-images{
+  margin-top: 10px;
+  vertical-align: middle;
+  margin-left : 40px;
+  width : 40%;
+  margin-bottom : 10px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+.contacts{
+  background-color : white;
+  margin-top : 0px;
+  padding : 20px;
+}
+.contact-text{
+  text-align : center;
+  margin : 40px;
+}
+.divider3{
+  background-color : lightgray;
+  width : 60%;
+  padding : 3px;
+  float : center;
+  margin : auto;
+}
+.contact-flexbox{
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+}
+.contact-me{
+  margin-left : 20px;
+}
+#data{
+  margin-top : 20px;
+  padding : 20px;
+  display : inline-block;
+  border-top : none;
+  border-left : none;
+  border-right : none;
+  border-bottom : solid #eeeeee 2px;
+  font-size : 20px;
+}
+
+#data:focus ~ .floating-label, #data:not(:focus):valid # .floating-label{
+  top: 8px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 18px;
+  transition: 0.2s ease all;
+}
+.contact-info{
+  width : 40%;
+  font-size : 20px;
+  text-align : left;
+  margin-top : 10px;
+}
+.bottom-about{
+  display : flex;
+  flex-direction : row;
+  flex-wrap : nowrap;
+  justify-content : space-around;
+  padding : 10px;
+  margin-left : -15px;
+}
+.div-send{
+  margin-top : 14px;
+}
+#i-text{
+  font-size : 20px;
+}
+.div-note{
+  font-size : 20px;
+  margin-left :40px;
+}
+.div-note p{
+}
+footer{
+  color : white;
+}
+.about-footer{
+  background-color : orange;
+  margin-top : -20px;
+  width : 110%;
+  display : flex;
+  flex-wrap : nowrap;
+  flex-direction : row;
+  justify-content : space-around;
+  padding : 20px;
+}
+#about-p{
+  padding : 10px;
+  font-size : 20px;
+  margin-left : -10px;
+}
+.vanessa{
+  color : white;
+  text-align : center;
+  margin-left : 50px;
+}
+.about-page{
+  
+}
+#about-p{
+  margin-top : 30px;
+}
+.social-links{
+}
+.around-page{
+}
+#plain{
+  color : black;
+  border-radius : 50%;
+  padding : 20px;
+  box-shadow : 1px 1px 1px 1px grey;
+}
+#plain:hover{
+  color : white;
+}
+.bottom-nav{
+  background-color : black;
+  margin-top : -15px;
+  width : 110%;
+  margin-left : -8px;
+  margin-bottom : -10px;
+}
+.text-center{
+  text-align : center;
+  padding : 20px;
+}
